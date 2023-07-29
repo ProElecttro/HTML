@@ -1,0 +1,279 @@
+<!-- tells the type: html 5 -->
+<!DOCTYPE html>
+
+<!-- all html document inside this tag-->
+<html>
+<!-- contains metadata/seo/title/link stylesheet of website -->
+
+<head> </head>
+
+<body>
+    hello world i am purushottam sharma
+    <p>
+        this is inside the paragraph tag,
+        this is the next line
+    </p>
+
+    <pre>
+    this is inside the pre tag,
+    this is the next line
+    </pre>
+
+    <h1>This is my first heading, more significant</h1>
+    <h2>This is my second heading</h2>
+    <h3>This is my third heading</h3>
+    <h4>This is my fourth heading</h4>
+    <h5>This is my fifth heading</h5>
+    <h6>This is my sixth heading, less significant</h6>
+
+    <!-- create hyperlink -->
+    <a href="https://www.google.com">Google (anchor tag)</a>
+
+    <h4>unordered list:</h4>
+    <!-- unordered list -->
+    <ul>
+        <!-- list item -->
+        <li>Maggi</li>
+        <li>kurkure</li>
+        <li>lays</li>
+    </ul>
+
+    <h4>ordered list:</h4>
+    <!-- ordered list -->
+    <ol>
+        <li>boil the water</li>
+        <li>add kurkure</li>
+        <li>add lays</li>
+        <li>eat it</li>
+        <li>die</li>
+    </ol>
+
+    <h4>description list:</h4>
+    <!-- description list -->
+    <dl>
+        <dt>hello</dt>
+        <!-- dt is followed by one or more dd tags -->
+
+        <dd>Lorem ipsum dolor sit amet.</dd>
+
+        <dt>world</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur.</dd>
+    </dl>
+
+    <!-- table  -->
+    <!-- shortcut : table>tr*3>td*3 -->
+    <table>
+        <!-- table row -->
+        <tr>
+            <!-- table data cell -->
+            <td>Sr no.</td>
+            <td>Name</td>
+            <td>Roll no</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>purushottam</td>
+            <td>EE22B073</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sonu</td>
+            <td>EE22B173</td>
+        </tr>
+    </table>
+
+    <!-- table>(tr>td*5)*2 -->
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- image -->
+    <img src="./ai_image.jpg" alt="ai_generated_image" style="width: 260px; height: auto;">
+
+    <!-- linking with image -->
+    <a href="www.google.com"><img src="./ai_image.jpg" alt="ai_generated_image" style="width: 260px; height: auto;"></a>
+
+    <!-- formatting tags -->
+    <h5>formatting tags.</h5>
+    <!-- this is a comment (ctrl + /)-->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut enim natus ad id corrupti laboriosam, illum libero
+        aspernatur voluptatibus suscipit vero sed eum eveniet quae!</p>
+    <p>
+        <strong>this is strong tag</strong><br>
+        <b>this is bold tag</b><br>
+        <em>this is emphasised using em tag</em><br>
+        <i>this is italised</i><br>
+        2 power 5 using superscript(sup) tag = 2<sup>5</sup><br>
+        H2O using subscript(sub) tag = H<sub>2</sub>O
+    </p>
+
+    <!-- ................................. -->
+    <!-- navigation, banner etc : header tag -->
+    <!-- sidebar etc : aside tag -->
+    <!-- article : article tag -->
+    <!-- content : main tag -->
+    <!-- see image 2 -->
+
+    <div class="shortcuts_emmet">
+        <!-- section+p+article -->
+        <section></section>
+        <p></p>
+        <article></article>
+
+        <!-- p>p+section -->
+        <p>
+        <p></p>
+        <section></section>
+        </p>
+
+        <!-- class : '.' -->
+        <!-- p.animal -->
+        <p class="animal"></p>
+
+        <!-- id : '#' -->
+        <!-- p#cat -->
+        <p id="cat"></p>
+
+        <!-- p.cat.dog.lion : multiple classes -->
+        <p class="cat dog lion"></p>
+
+        <!-- p{} : p{hello world this is a paragraph using shortcut} -->
+        <p>hello world this is a paragraph using shortcut</p>
+
+        <!-- p>p{hello world}+p*2+section -->
+        <p>
+        <p>hello world</p>
+        <p></p>
+        <p></p>
+        <section></section>
+        </p>
+
+        <!-- header+main+footer -->
+        <header></header>
+        <main></main>
+        <main></main>
+        <footer></footer>
+
+        <!-- .................................. -->
+        <!-- div tag : division create, generic container, for wrapping/container-->
+    </div>
+
+    <nav style="display: flex; justify-content: space-between;">
+        <h3>LOGO</h3>
+        <ul style="align-items: center;">
+            <li style=" display: inline-block;"><a href="" style="text-decoration: none;">Home</a></li>
+            <li style=" display: inline-block;"><a href="" style="text-decoration: none;">About</a></li>
+            <li style=" display: inline-block;"><a href="" style="text-decoration: none;">Contact</a></li>
+            <li style=" display: inline-block;"><a href="" style="text-decoration: none;">Services</a></li>
+        </ul>
+    </nav>
+
+    <a href="mailto:sonu001729@gmail.com">Testing!</a>
+
+    <!-- (table>(tr>td*5)*3)*2 -->
+    <!-- two tables with 3 rows and 5 columns. -->
+
+    <!-- display flex -->
+    <h3 style="margin-top: 50px; text-align: center;"><u>Display Flex:</u></h3>
+    <div class="contain" style="display: flex; flex-direction: row; justify-content: center;">
+        <div class="outer" style="width: 300px;height: 300px; display: flex; flex-direction: row; margin-top: 30px;">
+            <div class="a" style="width: 33.33%; height: 100%; background-color: aqua;"></div>
+            <div class="a" style="width: 33.33%; height: 100%; display: flex; flex-direction: column;">
+                <div class="b" style="width: 100%;height: 33.33%; background-color: red;"></div>
+                <div class="b" style="width: 100%;height: 33.33%; display: flex; flex-direction: row;">
+                    <div class="c" style="width: 33.33%; height: 100%; background-color: blue;"></div>
+                    <div class="c" style="width: 33.33%; height: 100%; display: flex; flex-direction: column;">
+                        <div class="d" style="width: 100%;height: 33.33%; background-color: yellow;"></div>
+                        <div class="d" style="width: 100%;height: 33.33%; display: flex; flex-direction: row;">
+                            <div class="outer" style="width: 33.33%;height: 100%; background-color: aqua;"></div>
+                            <div class="outer"
+                                style="width: 33.33%;height: 100%; display: flex; flex-direction: column;">
+                                <div class="b" style="width: 100%;height: 33.33%; background-color: red;"></div>
+                                <div class="b" style="width: 100%;height: 33.33%; background-color: black;"></div>
+                                <div class="b" style="width: 100%;height: 33.33%; background-color: yellow;"></div>
+                            </div>
+                            <div class="outer" style="width: 33.33%;height: 100%; background-color: blue;"></div>
+                        </div>
+                        <div class="d" style="width: 100%;height: 33.33%; background-color: red;"></div>
+                    </div>
+                    <div class="c" style="width: 33.33%; height: 100%; background-color: aqua;"></div>
+                </div>
+                <div class="b" style="width: 100%;height: 33.33%; background-color: yellow;"></div>
+            </div>
+            <div class="a" style="width: 33.33%; height: 100%; background-color: blue;"></div>
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <td>S.no</td>
+            <td>Block element</td>
+            <td>Inline element</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>starts in next line..........................</td>
+            <td>starts just after the end of previous element</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>takes whole width</td>
+            <td>takes the width according to the content</td>
+        </tr>
+        <tr>
+            <td>exapmple : </td>
+            <td>div, </td>
+            <td>span, </td>
+        </tr>
+    </table>
+    <h4>this is div tag : block element</h4>
+    <div style="background-color: red;">hello</div>
+    <div style="background-color: yellow;">world</div>
+    <div style="display: inline-block; background-color: green;">hello world : converted it to inline element</div>
+
+    <h4>this is a span tag : inline element</h4>
+    <span style="background-color: red;">hello</span>
+    <span style="background-color: yellow;">world</span>
+    <span style="display: flex; background-color: green;">hello world : converted it to block element</span>
+</body>
+
+
+<nav>
+    <ul style="align-items: center;">
+        <li style="display: inline-block;"><a href="www.google.com" style="text-decoration: none;">Google</a></li>
+        <li style="display: inline-block;"><a href="www.leetcode.com/sonu001729" style="text-decoration: none;">Leetcode</a></li>
+        <li style="display: inline-block;"><a href="" style="text-decoration: none;">Linkedin</a></li>
+    </ul>
+</nav>
+
+<nav>
+    <ul style="align-items: center;">
+        <li style=" display: inline-block;"><a href="" style="text-decoration: none;">Home</a></li>
+        <li style=" display: inline-block;"><a href="" style="text-decoration: none;">About</a></li>
+        <li style=" display: inline-block;"><a href="" style="text-decoration: none;">Contact</a></li>
+        <li style=" display: inline-block;"><a href="" style="text-decoration: none;">Services</a></li>
+    </ul>
+</nav>
+
+<h3>sending mail:
+    <a href="mailto:sonu001729@gmail.com">Reach out here</a>
+</h3>
+<h3>telephone call:
+    <a href="tel:8028430223">Call here</a>
+</h3>
+
+
+</html>
